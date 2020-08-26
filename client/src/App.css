@@ -1,0 +1,45 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+#fragment {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 70px;
+  min-height: 30rem;
+  align-self: center;
+}
+#main {
+  max-width: 400px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color:cadetblue;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+}
+
+input{
+  margin-bottom: 40px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+}
+
+
+
+h5 {
+  color: black;
+}
+
+span {
+  color: black;
+  font-size: 12px;
+  margin: 12px;
+  
+
+}
